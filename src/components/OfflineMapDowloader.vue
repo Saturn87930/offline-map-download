@@ -304,7 +304,7 @@
       writeBlob(x, y, z) {
         return new Promise((resolve) => {
           getBlob(
-            `http://wprd04.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style=${
+            `https://wprd04.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style=${
               this.selectStyle || 7
             }&x=${x}&y=${y}&z=${z}`,
             (res) => {
